@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name= "viewport" content="width=device-width, initial-scale= 1.0">
+        <title>Assignment 9</title>
+    </head>
+    
+    <body bgcolor="Aqua">
+
+<h1> Reservation Request</h1>
+<form>
+
+<fieldset>
+    <legend>General Information</legend>
+    <label for="Ad">Arrival Date</label>
+    <input type="date" name="ad" id="ad">
+    <br>
+    <br>
+
+    <label for="Nights">Nights :</label>
+    <input type="number"  name= "Night :" id="Night :">
+    <br>
+    <br>
+
+    <label for="Adults">Adults</label>
+    <input type="Number" name="Adults" id="Adults">
+    <br>
+    <br>
+    <label for="Children">Children</label>
+    <input type="number" name="Children" id="Children">
+
+
+</fieldset>
+
+<fieldset>
+    <legend>Preferences</legend>
+    <label for="rt">Room Type :</label>
+    <input type="radio" name="rt" id= "rt"> Standard
+    <input type="radio" name="rt" id= "rt"> Business
+    <input type="radio" name="rt" id= "rt"> Suite
+    <br>
+    <br>
+    <label for="bt">Bed Time :</label>
+    <input type="Radio" name="bt" id="bt"> King
+    <input type="Radio" name="bt" id="bt"> Double Double
+    <br>
+    <br>
+    <input type="Checkbox" name="cb" id="cb">
+    <label for="cb">Smoking</label>
+    <br>
+    <br>
+    <label for="fo">Food Options :</label>
+    <input type="text" name="fo" id="fo">
+    <!--<Select Name= "" id= "">
+        <option value="" >Veg</option>
+        <option value="ab">Non Veg</option>
+    </select>-->
+</fieldset>
+<fieldset>
+
+    <legend>Contact Information</legend>
+    <Label for="Name">Name :</Label>
+    <input type="text" name="Name" id="Name">
+    <br>
+    <br>
+    <label for="Email">Email :</label>
+    <input type="Text" name="Email" id="Email">
+    <br>
+    <br>
+    <label for="Phone">Phone :</label>
+    <input type="text" name="Phone" id="phone">
+    <br>
+    <br>
+    <label for= " Password">Password :</label>
+    <input type="Text" name="Password" id="Password">
+
+</fieldset>
+<fieldset>
+    <legend>Distance Information</legend>
+    <label for="fm">Fuel Meter</label>
+    <meter id="fm" name= "fm" max="100" min="0" low="30" high="60" optimum="80" value="65"></meter>
+        <br>
+        <br>
+        <label for="">Progress Bar</label>
+        <progress min= "0" max="100" value="80"></progress>
+        <br>
+        <br>
+        <label for="pv">Write about the place of Visit :</label>
+        <br>
+        <textarea name="pv" id="pv" cols="pv" rows="pv" placeholder="Enter your paragraph"></textarea>
+    
+</fieldset>
+
+
+<input type="submit">
+
+</form>
+ </body>
+ </html>
